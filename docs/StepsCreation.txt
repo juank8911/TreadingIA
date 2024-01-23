@@ -1,0 +1,48 @@
+Paso 1: Instalar Python y las bibliotecas y marcos de trabajo necesarios.
+
+Este paso es importante para asegurarse de que tenga todas las herramientas necesarias para crear la red neuronal.
+
+Paso 2: Crear el proyecto en Visual Code.
+
+Este paso es opcional, pero puede ser útil para organizar el código y los archivos del proyecto.
+
+Paso 3: Documentar el proyecto.
+
+Este paso es importante para asegurarse de que pueda entender y mantener el proyecto en el futuro.
+
+Paso 4: Obtener los datos de Binance.
+
+         1. Implementar el servicio de obtención de datos.
+         2. Implementar el adaptador de datos de Binance.
+         3. Implementar el servicio de preparación de datos.
+         4. Implementar el servicio de preparación de datos.
+         5. Implementar el servicio de preparación de datos.
+         6. Implementar el servicio de entrenamiento de la red neuronal.
+         7. Evaluar la red neuronal.
+         8. Implementar la red neuronal para hacer predicciones de precios.
+
+Este paso es importante para proporcionar a la red neuronal los datos que necesita para aprender.
+
+Paso 5: Preparar los datos.
+
+Este paso es importante para asegurarse de que los datos estén en el formato correcto y que estén limpios de errores.
+
+Paso 6: Realizar pruebas unitarias.
+
+Este paso es importante para garantizar que la red neuronal funcione correctamente.
+
+Paso 7: Entrenar la red neuronal.
+
+Este paso es el proceso de aprendizaje de la red neuronal.
+
+Paso 8: Evaluar la red neuronal.
+
+Este paso es importante para asegurarse de que la red neuronal sea precisa.
+
+Paso 9: Implementar la red neuronal.
+
+Este paso es el proceso de usar la red neuronal para hacer predicciones.
+
+Paso 10: Publicar el proyecto.
+
+Este paso es opcional, pero puede ser útil para compartir su trabajo con otros.

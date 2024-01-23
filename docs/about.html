@@ -1,0 +1,60 @@
+
+Estructura del proyecto 
+
+tradingAI
+├── tests
+│   ├── __init__.py
+│   └── test_trading_bot.py
+├── docs
+│   ├── index.html
+│   ├── about.html
+│   └── installation.html
+├── config
+│   └── config.ini
+├── core
+│   ├── Knowledge_module.py
+│   └── Processmodule.py
+│   └── TradingModule.py
+├── domain
+│   ├── models
+│   │   ├── BotModel.py
+│   │   ├── ProcessModel.py
+│   │   └── TradingModel.py
+│   └── services
+│       └── TradingService.py
+├── infrastructure
+│   ├── adapters
+│   │   ├── BinanceAdapter.py
+│   │   └── PionexAdapter.py
+│   └── data
+│       └── data.csv
+│       └── data.db
+└── presentation
+    └── views
+        └── TradingView.py
+
+
+        La estructura del proyecto quedaría de la siguiente manera:
+
+        Se crea una carpeta tests para almacenar los archivos de prueba del proyecto.
+        Se crea una carpeta docs para almacenar la documentación del proyecto en formato HTML.
+        Se crea una carpeta config para almacenar los archivos de configuración del proyecto.
+        La carpeta core se mantiene sin cambios.
+        
+        La carpeta domain se divide en dos carpetas:
+        
+        models: Esta carpeta contiene los modelos del dominio del proyecto.
+        services: Esta carpeta contiene los servicios del dominio del proyecto.
+        La carpeta infrastructure se divide en dos carpetas:
+        
+        adapters: Esta carpeta contiene los adaptadores de la infraestructura del proyecto.
+        data: Esta carpeta contiene los datos de la infraestructura del proyecto.
+        La carpeta presentation se mantiene sin cambios.
+        
+        Esta estructura del proyecto mejora la organización y la mantenibilidad del proyecto. La separación de las responsabilidades en diferentes carpetas facilita el desarrollo, la prueba y la documentación del proyecto.
+        
+        Recomendaciones específicas para la carpeta core
+        
+        La carpeta core contiene los módulos centrales del proyecto. Estos módulos deben ser independientes de las implementaciones específicas de las capas de dominio e infraestructura.
+        
+        Con este fin, se recomienda que los módulos de la carpeta core sean lo más abstractos posible. Por ejemplo, el módulo Knowledge_module.py podría definir una interfaz para la clase Knowledge_module sin especificar su implementación concreta.
